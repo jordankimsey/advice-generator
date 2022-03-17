@@ -22,10 +22,53 @@ body {
   width: 100vw;
   background-color: var(--dark-grayish-blue);
   color: var(--light-cyan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  max-width: 500px;
+  height: 300px;
+  margin: 0px 1rem;
+  padding: 15px;
+  background-color: var(--grayish-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.adviceNumber {
+  color: var(--neon-green);
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.lineBreak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .lineBreak::before {
+border: 2px solid black;
+}
+
+.lineBreak::after{
+    border: 2px solid black;
+} */
+
+.diceButton button {
+  border-radius: 50%;
+  background-color: var(--neon-green);
 }
 
 /* footer */
@@ -35,6 +78,8 @@ body {
   position: fixed;
   width: 100%;
   bottom: 0;
+  left: 0;
+  right: 0;
   padding-bottom: 1rem;
 }
 .attribution a {

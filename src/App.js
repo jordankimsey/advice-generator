@@ -7,8 +7,8 @@ import Container from './components/container';
 function App() {
   return (
     <div className='App'>
-      <Container/>
-      <Footer/>
+        <Container />
+      <Footer />
     </div>
   );
 }
