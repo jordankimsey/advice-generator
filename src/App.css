@@ -56,6 +56,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  padding-top: 1rem;
 }
 
 /* .lineBreak::before {
@@ -66,9 +68,18 @@ border: 2px solid black;
     border: 2px solid black;
 } */
 
+.diceButton {
+    position: relative;
+    bottom: 1.5rem;
+}
+
 .diceButton button {
+  text-align: center;
   border-radius: 50%;
   background-color: var(--neon-green);
+  padding: 15px;
+  border: none;
+  
 }
 
 /* footer */
