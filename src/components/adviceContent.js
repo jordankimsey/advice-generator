@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import patternDivider from './assets/images/pattern-divider-mobile.svg';
 
-const adviceContent = ({advice}) => {
+const adviceContent = ({ advice }) => {
   return (
     <div>
       <div className='content'>
@@ -9,12 +9,13 @@ const adviceContent = ({advice}) => {
         <div className='adviceQuote'>{advice.advice}</div>
       </div>
       <div className='lineBreak'>
-        <div className='imgContainer'>
-          <img src={patternDivider} alt='pattern divider' />
-        </div>
+          <div className='imgContainer'>
+            <img src={patternDivider} alt='pattern divider' />
+          </div>
+        
       </div>
     </div>
   );
-}
+};
 
-export default adviceContent
+export default adviceContent;

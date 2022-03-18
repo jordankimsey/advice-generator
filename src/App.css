@@ -57,8 +57,19 @@ body {
 .lineBreak {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding-top: 1rem;
   width: 100%;
+  height: 40px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
 }
 
 .lineBreak::before, .lineBreak::after {
@@ -66,18 +77,6 @@ body {
   flex: 1 1;
   border-bottom: 1px solid var(--light-cyan);
   margin: auto;
-}
-
-.imgContainer {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
- 
-.imgContainer img {
-  width: 100%;
-  height: auto;
 }
 
 .diceButton {
@@ -91,6 +90,7 @@ body {
   background-color: var(--neon-green);
   padding: 15px;
   border: none;
+  cursor: pointer;
 }
 
 .diceButton button:hover {
